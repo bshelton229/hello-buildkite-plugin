@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -eu -o pipefail
+
+export HELLO_MESSAGE="Hello World"
