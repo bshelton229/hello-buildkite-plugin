@@ -2,4 +2,4 @@
 
 set -eu -o pipefail
 
-export HELLO_MESSAGE="Hello World"
+export HELLO_MESSAGE=${BUILDKITE_PLUGIN_HELLO_MESSAGE:-UNSET}
